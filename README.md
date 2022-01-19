@@ -3,7 +3,7 @@
  <img width=200px height=200px src="https://imgur.com/IcGQPXB.jpg" alt="Project GetX"></a>
 </p>
 
-<h3 align="center">realty-crypto</h3>
+<h3 align="center">Project GetX</h3>
 
 <div align="center">
 
