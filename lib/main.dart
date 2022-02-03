@@ -3,6 +3,10 @@ import 'package:app_getx_flutterg57/app/screens/04-pasar_datos/profile_screen.da
 import 'package:app_getx_flutterg57/app/screens/05-reactivos_observables/reactivo_screen.dart';
 import 'package:app_getx_flutterg57/app/screens/02-ciclo_de_vida/splash_screen.dart';
 import 'package:app_getx_flutterg57/app/screens/03-user_api/user_screen.dart';
+import 'package:app_getx_flutterg57/app/screens/05-reactivos_observables/user_reactivo_screen.dart';
+import 'package:app_getx_flutterg57/app/screens/06-clases_reactivos/clases_screen.dart';
+import 'package:app_getx_flutterg57/app/screens/07-socket_reactivos/socket_screen.dart';
+import 'package:app_getx_flutterg57/app/screens/08-custom_paint/custom_paint_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -29,6 +33,10 @@ class MyApp extends StatelessWidget {
         '/user': (context) => const UserScreen(),
         '/profile': (context) => const ProfileScreen(),
         '/reactivo': (context) => const ReactivoScreen(),
+        '/userreactivo': (context) => const UserReactivoScreen(),
+        '/clases': (context) => const ClasesScreen(),
+        '/socket': (context) => const SocketScreen(),
+        '/custompainter': (context) => const CustomPaintScreen(),
       },
     );
   }

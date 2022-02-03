@@ -1,5 +1,7 @@
 import 'dart:convert';
 
+import 'package:get/get.dart';
+
 UserModel userModelFromJson(String str) => UserModel.fromJson(json.decode(str));
 
 String userModelToJson(UserModel data) => json.encode(data.toJson());
@@ -19,6 +21,7 @@ class UserModel {
   String? lastName;
   String? avatar;
   bool favorite = false;
+  RxBool rxFavorite = RxBool(false);
 
   factory UserModel.fromJson(Map<String, dynamic> json) => UserModel(
         id: json["id"],

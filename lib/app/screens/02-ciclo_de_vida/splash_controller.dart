@@ -23,7 +23,7 @@ class SplashController extends GetxController {
   _nextPage() {
     Future.delayed(const Duration(milliseconds: 300), () {
       Get.offAllNamed(
-          "/reactivo"); // Get.to(() => ContadorScreen()); // eliminar de memoria
+          "/custompainter"); // Get.to(() => ContadorScreen()); // eliminar de memoria
     });
     // print("_doContador");
     // Rx.timer(0, const Duration(seconds: 3)).listen((_) {
